@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+body {
+    background: radial-gradient(rgb(207, 235, 161), rgb(39, 35, 35));
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 600px;
+    margin: 100px auto;
+    padding: 0px 20px 20px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 182, 25);
+}
+
+fieldset {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#title {
+    font-size: 36px;
+}
+
+#description {
+    font-weight: bold;
+}
+
+label {
+    font-size: 28px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+}
+
+input, select, textarea, #submit {
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 100%;
+}
+
+.custom-field {
+    margin: 20px 0px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lorem, ipsum.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <form id="survey-form" action="">
+            <fieldset>
+                <legend><h1 id="title">Lorem Form</h1></legend>
+                <p id="description">Lorem ipsum dolor sit amet.</p>
+                
+                <div class="custom-field">
+                    <label id="name-label" for="name">
+                        Name<br><input type="text" name="name" id="name" placeholder="Lorem, ipsum." required>
+                    </label><br>
+                </div>
+
+                <div class="custom-field">
+                    <label id="email-label" for="email">
+                        Email<br><input type="email" name="email" id="email" placeholder="Lorem, ipsum." required>
+                    </label><br>
+                </div>
+
+                <div class="custom-field">
+                    <label id="number-label" for="number">
+                        Number<br><input type="number" name="number" id="number" min="0" max="100" placeholder="Lorem, ipsum.">
+                    </label><br>
+                </div>
+
+                <div class="custom-field">
+                    <label for="dropdown" id="dropdown-label">
+                        Dropdown<br><select name="dropdown" id="dropdown">
+                            <option value="Lorem">Lorem</option>
+                            <option value="ipsum">ipsum</option>
+                            <option value="dolor">dolor</option>
+                            <option value="sit.">sit.</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="custom-field">
+                    <label for="">
+                        Radiobuttons<br>
+                        <label for="check1">
+                            <input type="radio" name="check1" id="" value="check1">Check1
+                        </label><br>
+                        <label for="check1">
+                            <input type="radio" name="check1" id="" value="check2">Check2
+                        </label><br>
+                        <label for="check1">
+                            <input type="radio" name="check1" id="" value="check3">Check3
+                        </label><br>
+                        
+                    </label>
+                </div>
+
+                <div class="custom-field">
+                    <label for="">
+                        Checkboxes<br>
+                        <label for="radio1">
+                            <input type="checkbox" name="radio1" id="" value="radio1">Radio1
+                        </label><br>
+                        <label for="radio2">
+                            <input type="checkbox" name="radio2" id="" value="radio2">Radio2
+                        </label><br>
+                        <label for="radio3">
+                            <input type="checkbox" name="radio3" id="" value="radio3">Radio3
+                        </label><br>
+                    </label>
+                </div>
+
+                <div class="custom-field">
+                    <label for="area">
+                        Some comments?<br>
+                        <textarea name="area" id="" cols="30" rows="10" placeholder="???"></textarea>
+                    </label>
+                </div>
+
+                <div class="custom-field">
+                    <button type="submit" id="submit">Send</button>   
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
